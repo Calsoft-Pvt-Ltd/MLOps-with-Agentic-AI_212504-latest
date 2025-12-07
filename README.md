@@ -1,6 +1,7 @@
 Links
 - [course drive](https://drive.google.com/drive/folders/1ayzzvvr_w8l16cUQK2dmBhv4aUx8Gsf-)
 This repository contains materials and projects for the MLOps course, including data processing pipelines, machine learning models, and deployment examples.
+- [link to google classification article](https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall)
 
 ## Prerequisites
 
@@ -54,3 +55,4 @@ source .venv/bin/activate
 # Or alternatively, you can use uv to run commands in the virtual environment
 cd <directory_name> && python3 (or) python <script_name>.py
 ```
+
