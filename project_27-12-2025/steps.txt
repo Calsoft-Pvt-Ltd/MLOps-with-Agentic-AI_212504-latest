@@ -1,0 +1,9 @@
+Data Loading & Preprocessing: Load Zillow 2016/2017 property and transaction data, merge datasets, handle missing values through imputation, drop outliers (±2.5σ), and create train/validation/test splits using parcelid hashing
+
+Feature Engineering: Create date features (year/month/quarter), derived features (avg_garage_size, property_tax_per_sqft, location coordinates), aggregated features by region, polynomial features from top correlated variables, and apply Box-Cox transformation to skewed numerical features
+
+Model Training & Tuning: Train and optimize multiple models (Linear Regression, Random Forest, XGBoost, LightGBM, CatBoost) using hyperparameter tuning via RandomizedSearchCV/GridSearchCV/Optuna with early stopping and cross-validation
+
+Model Interpretation: Analyze model behavior using global feature importance (feature_importances_), ICE plots for feature effects, and SHAP values for both global importance and local prediction explanations
+
+Ensemble Stacking: Create meta-learner training data using K-fold out-of-fold predictions from base models (RF, XGBoost, LightGBM, CatBoost), train meta-learners (LightGBM/CatBoost), and combine predictions with weighted averaging
